@@ -1,3 +1,3 @@
 FROM python:3.9
-RUN apt-get update
-CMD ["echo","helloworld"]
+ADD first.py .
+CMD ["python","first.py"]
